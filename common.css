@@ -18,6 +18,12 @@
   line-height: 1.5;
 }
 
+.common-text-black {
+  font-family: Arial, sans-serif;
+  color: black;
+  line-height: 1.5;
+}
+
 .common-mainbox {
   width: 100%;
   max-width: 1200px;
