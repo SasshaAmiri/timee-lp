@@ -25,3 +25,12 @@ body {
   text-align: center;
 }
 
+.reason__area {
+  display: flex;
+}
+
+.reason__point {
+  height: 200px;
+  width: 200px;
+  background-color: yellow;
+}
