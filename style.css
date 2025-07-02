@@ -97,3 +97,14 @@ body {
   padding: 0;
   z-index: 2;    /* テキストを波線より上に */
 }
+
+.features__point {
+  height: 100px;
+  width: 500px;
+  background-color: #f8f4df;
+  margin: auto;
+  border-radius: 20px;
+  padding: 5px;
+  margin-top: 15px;
+}
+
