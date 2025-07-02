@@ -34,9 +34,10 @@ body {
 
 .reason__area {
   display: flex;
-   gap: 150px;
+  gap: 150px;
   justify-content: center; 
-  flex-wrap: wrap; 
+  flex-wrap: nowrap; 
+  padding-top: 60px;
 }
 
 
@@ -50,7 +51,6 @@ body {
   flex-direction: column;
   justify-content: flex-start;  
   align-items: center;  
-  margin-top: 60px; 
 }
 
 .reason__point h2,
@@ -96,4 +96,12 @@ body {
   margin: 0;
   padding: 0;
   z-index: 2;    /* テキストを波線より上に */
+} 
+
+.reason__boader {
+  padding: 10px;
+  border: 1px solid #000;
+  display: inline-block;
+
 }
+
