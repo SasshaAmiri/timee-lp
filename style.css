@@ -29,11 +29,37 @@ body {
 
 .reason__area {
   display: flex;
+  gap: 150px;
+  justify-content: center; 
+  flex-wrap: nowrap; 
+  padding-top: 60px;
 }
 
 .reason__point {
   height: 200px;
   width: 200px;
+  background-color: #FFDB00;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;  
+  align-items: center;  
+}
+
+.reason__point h2,
+.reason__point p,
+.reason__point button {
+  margin: 0;
+}
+
+.reason__point p {
+  margin-top: 2px;
+  line-height: 1.2;
+}
+
+.reason__point button {
+  margin-top: 6px;     /* 説明文とボタンの間に必要な分だけ空ける */
   background-color: yellow;
 }
 
@@ -59,6 +85,12 @@ body {
   margin: 0;
   padding: 0;
   z-index: 2;    /* テキストを波線より上に */
+} 
+
+.reason__boader {
+  padding: 10px;
+  border: 1px solid #000;
+  display: inline-block;
 }
 
 .features__point {
@@ -71,7 +103,6 @@ body {
   margin-top: 15px;
 }
 
-=======
 .review-text {
   text-align: left;
   padding: 70px 30px;
