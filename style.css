@@ -5,13 +5,6 @@
 
 .header__button {
   height: 50;
-  width: 150px; 
-  border-radius: 20px; 
-  padding: 15px 20px;      
-  border: none;              
-  background: linear-gradient(to bottom, #fff, #ccc);
-  color: #000;               
-  cursor: pointer;  
 }
 
 .header__logo {
@@ -23,6 +16,7 @@
 .header__logo__img {
   height: 50px;
   width: 250px;
+  display: flex;
 }
 
 body {
@@ -30,65 +24,34 @@ body {
   background-color: white;
   color: #fff;
   text-align: center;
+  margin: 0;
 }
 
 .reason__area {
   display: flex;
-   gap: 150px;
-  justify-content: center; 
-  flex-wrap: wrap; 
 }
 
-
 .reason__point {
-  height: 210px;  
+  height: 200px;
   width: 200px;
-  background-color: #FFDB00;
-  border-radius: 20px;
-  padding: 10px;
+  background-color: yellow;
+}
+
+.review-content{
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;  
-  align-items: center;  
-  margin-top: 60px; 
+  justify-content: center;
 }
 
-.reason__point h2,
-.reason__point p,
-.reason__point button {
-  margin: 0;
+.review-img {
+  height: 500px;
+  width: 300px;
 }
 
-.reason__point p {
-  margin-top: 2px;
-  line-height: 1.2;
-}
-
-.reason__point button {
-  margin-top: 6px;     /* 説明文とボタンの間に必要な分だけ空ける */
-}
-
-.reason__point {
-  justify-content: space-between;  /* ボタンを一番下に固定し、他の要素間はマージン調整 */
-}
-
-.reason__key {
-  text-align: center;
-}
-
-.title-wrapper {
-  display: inline-block;
-  position: relative;
-}
-
-.yellowline {
-  position: absolute;
-  top: 230%;
-  left: 50%;
-  transform: translate(-50%, -50%);  /* 中央寄せ */
-  width: 140%;   /* テキストより少し長くする */
-  height: auto;
-  z-index: 1;
+.review-box {
+  height: 500px;
+  width: 300px;
+  background-color: yellow;
+  border-radius: 30px;
 }
 
 .common-title {
@@ -108,3 +71,8 @@ body {
   margin-top: 15px;
 }
 
+=======
+.review-text {
+  text-align: left;
+  padding: 70px 30px;
+}
