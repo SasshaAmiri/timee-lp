@@ -202,18 +202,45 @@ body {
 .footer {
   background-color: #000;
   height: 300px;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .footer__text {
-  height: auto;
-
-  text-align: auto 0;
-  align-items: center;
+  color: white;
 }
 
-.fotter__text {
+.footer__text:hover {
+  color: #FFDB00;
+}
+
+.footer__box {
+  display: flex;
+  gap: 130px;
+  width: 500px;
+  margin:  auto;
+  padding-top: 60px;
+}
+
+.fotter__text-left {
+  height: auto;
   font-family: Arial, sans-serif;
   color: #fff;
   font-size: 17px;
   line-height: 1.7;
+}
+
+.fotter__text-right {
+  height: auto;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.footer__text-white {
+  font-family: Arial, sans-serif;
+  color: #fff;
+  font-weight: bold;
+  
 }
