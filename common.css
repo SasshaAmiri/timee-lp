@@ -1,27 +1,22 @@
 .common-title {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 50px;
   color: #000;
 }
 
 .common-subtitle {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: bold;
-  font-size: 24px;
-  color: #ffe100;
+  font-size: 40px;
+  color: #000;
 }
 
 .common-text {
   font-family: Arial, sans-serif;
   color: #000;
-  line-height: 1.5;
-}
-
-.common-text-black {
-  font-family: Arial, sans-serif;
-  color: black;
-  line-height: 1.5;
+  font-size: 17px;
+  line-height: 1.7;
 }
 
 .common-mainbox {
