@@ -1,6 +1,8 @@
 .header {
   background-color: #000;
   display: flex;
+  position: fixed;
+  width: 100%;
 }
 
 .header__button {
@@ -12,18 +14,18 @@
   background: linear-gradient(to bottom, #fff, #ccc);
   color: #000;
   cursor: pointer;
+  margin: 12px 12px 12px 120px;
 }
 
 .header__logo {
-  display: flex;
+
   background-color: #fff;
-  margin: 10px;
+  margin: 10px 100px 10px auto;
 }
 
 .header__logo__img {
   height: 50px;
   width: 250px;
-  display: flex;
 }
 
 body {
@@ -34,17 +36,47 @@ body {
   margin: 0;
 }
 
+
+.hero {
+  width: 100%;
+  height: 700px;
+  background-image: url(sozai/sozai_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.hero-title {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 80px;
+  color: #000;
+  margin: 0 !important;
+}
+
+.hero-yellowbox {
+  height: auto;
+  width: 100%;
+  background-color: rgba(255,219,0,0.55);
+}
+
+.hero-yellowbox-text {
+  text-align: auto 0;
+  align-content: center;
+}
+
 .reason__area {
   display: flex;
   gap: 120px;
   justify-content: center; 
   flex-wrap: nowrap; 
-  padding-top: 100px;
+  padding-top: 0px;
 }
 
 .reason__point {
-  height: 210px;
-  width: 200px;
+  height: 250px;
+  width: 240px;
   background-color: #FFDB00;
   border-radius: 20px;
   padding: 10px;
@@ -69,6 +101,10 @@ body {
   margin-top: 6px;     /* 説明文とボタンの間に必要な分だけ空ける */
 }
 
+.reason__text{
+  padding: 10px 0;
+}
+
 .reason__key {
   text-align: center;
 }
@@ -78,16 +114,21 @@ body {
   position: relative;
 }
 
-.yellowline {
-  width: 900px;
-  position: absolute;
-  top: 180px;
-  left: 24%;
+.reason-title{
+  height: 200px;
+  background-image: url(sozai/sozai_6.png);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 40px;
 }
+
 
 .review-content{
   display: flex;
   justify-content: center;
+  gap: 70px;
+  padding-top: 50px;
 }
 
 .review-img {
@@ -98,7 +139,7 @@ body {
 .review-box {
   height: 500px;
   width: 300px;
-  background-color: yellow;
+  background-color: #FFDB00;
   border-radius: 30px;
 }
 
@@ -125,7 +166,81 @@ body {
   margin-top: 15px;
 }
 
+.calendar {
+  width: 100%;
+  height: 400px;
+}
+
 .review-text {
   text-align: left;
   padding: 30px;
+}
+
+.background-img {
+  max-width: 100%;
+  height:  700px;
+  background-image: url(sozai/sozai_3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.message-text{
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 50px;
+  color: #fff;
+  text-align: left;
+}
+
+.message-text-box {
+  height: 500px;
+  padding-left: 5%;
+  padding-top: 5%;
+  text-align: auto 0;
+  align-items: center;
+}
+
+.footer {
+  background-color: #000;
+  height: 300px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.footer__text {
+  color: white;
+}
+
+.footer__text:hover {
+  color: #FFDB00;
+}
+
+.footer__box {
+  display: flex;
+  gap: 130px;
+  width: 500px;
+  margin:  auto;
+  padding-top: 60px;
+}
+
+.fotter__text-left {
+  height: auto;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.fotter__text-right {
+  height: auto;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.footer__text-white {
+  font-family: Arial, sans-serif;
+  color: #fff;
+  font-weight: bold;
+  
 }
